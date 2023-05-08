@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+*{ padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --inpbg:#f5f6f7;
+    --inpborder:#e8eae9;
+    --btnbg:#0073ec;
+}
+.left{
+    width: 500px;
+    height: 500px;
+}
+.left img{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+.right{
+    width: 500px;
+    height: auto;
+    padding: 35px;
+    background-color: white;
+    box-shadow: 0px 0px 5px gray;
+    border-radius: 10px;
+}
+.right h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.inpbox{
+    margin-bottom: 20px;
+}
+.inpbox label{
+    font-size: 18px;
+}
+.inpbox input{
+    width: 100%;
+    height: 55px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: var(--inpbg);
+    border: 1px solid var(--inpborder);
+    outline: none;
+    border-radius: 5px;
+}
+form button{
+    width: 100%;
+    height: 55px;
+    background-color: var(--btnbg);
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+}
+form p{
+    font-size: 17px;
+    margin-top: 15px;
+}
+form p a{
+    text-decoration: none;
+    color: var(--btnbg);
+}
